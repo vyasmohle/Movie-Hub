@@ -19,7 +19,7 @@ function App() {
     <div className=' bg-[#1f1e1e] w-screen min-h-screen flex' >
       
       <Routes>
-        <Route path='/' element={<Home/>} ></Route>
+        <Route path='/Movie-Hub' element={<Home/>} ></Route>
         <Route path='/trending' element={<Trending/>} ></Route>
         <Route path='/popular' element={<Popular/>} ></Route>
         <Route path='/movie' element={<Movies/>} > </Route>
